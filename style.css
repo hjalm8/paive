@@ -225,9 +225,26 @@ body {
 #info {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    padding-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+#info > * {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#infoCTA {
+
+    width: 80%;
+    text-align: center;
+    font-family: Gibson;
+    letter-spacing: 0px;
+    font-size: 21pt;
+    color: #7E7B76;
+    opacity: 0.9;
 }
 
 
@@ -262,6 +279,17 @@ body {
     background-position: center;
 }
 
+#img3{
+    background: url('/assets/pexels-daria-shevtsova-3626622.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+}
+
 #form {
     display: flex;
     flex-direction: column;
@@ -284,8 +312,9 @@ body {
 #cta {
     width: 80%;
     text-align: center;
-    font: normal normal normal 19px/23px Gibson;
+    font-family: Gibson;
     letter-spacing: 0px;
+    font-size: 17pt;
     color: #7E7B76;
     opacity: 0.9;
 }
@@ -306,19 +335,24 @@ footer {
     margin-top: 200px;
     background: #C6D9B9 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 12px #0000004F;
-    height: 170px;
     width: 70%;
     border-radius: 43px 43px 0px 0px;
     display: flex;
     padding: 30px 50px 10px 50px;
-    align-items: center;
+    align-items: flex-end;
 }
 
 #about {
     flex: 3;
 }
 
+footer > * {
+    height: 100%;
+    margin-bottom: 20px;
+}
+
 #contactInfo {
+    margin-top: 30px;
     text-align: end;
     flex: 1;
 }
