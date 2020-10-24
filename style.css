@@ -353,7 +353,7 @@ footer > * {
 
 #contactInfo {
     margin-top: 30px;
-    text-align: end;
+    text-align: center;
     flex: 1;
 }
 #contactInfo b {
@@ -394,9 +394,28 @@ footer > * {
         font-size: 16pt;
     }
 
+    .segmentBox {
+        height: 650px;
+    }
+
     .infoBox {
         width: 100%;
         margin-bottom: 15px;
+    }
+
+    #form #submit {
+        background: #8fe2db 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 6px;
+        border: none;
+        color: #424242;
+        width: 50%;
+        text-align: center;
+    }
+
+    .form {
+        margin-bottom: 20px;
+        flex: 2;
     }
 
     #infoCTA {
