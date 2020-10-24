@@ -404,7 +404,7 @@ footer > * {
     }
 
     #form #submit {
-        background: #8fe2db 0% 0% no-repeat padding-box;
+        background: #b3a488 0% 0% no-repeat padding-box;
         box-shadow: 0px 3px 6px #00000029;
         border-radius: 6px;
         border: none;
@@ -415,6 +415,7 @@ footer > * {
 
     .form {
         margin-bottom: 20px;
+        flex: 2;
     }
 
     #infoCTA {
@@ -426,6 +427,10 @@ footer > * {
         font-size: 16pt;
         color: #7E7B76;
         opacity: 0.9;
+    }
+
+    #main > footer {
+        width: inherit;
     }
 
     .form * {
